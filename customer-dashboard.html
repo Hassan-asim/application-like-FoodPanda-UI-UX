@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Customer Dashboard</h1>
+        <form id="restaurant-list-form">
+            <h2>List of Restaurants</h2>
+            <ul class="restaurant-list">
+                <!-- Display list of restaurants and functionality -->
+                <li>Restaurant 1</li>
+                <li>Restaurant 2</li>
+                <li>Restaurant 3</li>
+            </ul>
+        </form>
+        <form id="dish-list-form">
+            <h2>Available Dishes</h2>
+            <ul class="dish-list">
+                <!-- Display available dishes of selected restaurant and functionality -->
+                <li>Dish 1</li>
+                <li>Dish 2</li>
+                <li>Dish 3</li>
+            </ul>
+        </form>
+        <form id="order-placement-form">
+            <h2>Order Placement</h2>
+            <input type="text" id="dish-name" name="dish-name" placeholder="Enter Dish Name">
+            <input type="number" id="quantity" name="quantity" placeholder="Enter Quantity">
+            <button type="submit">Place Order</button>
+        </form>
+    </div>
+</body>
+</html>
